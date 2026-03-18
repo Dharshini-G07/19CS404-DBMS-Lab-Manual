@@ -30,8 +30,19 @@ END;
 - Create two tables: `employees` (for storing data) and `employee_log` (for logging the inserts).
 - Write an **AFTER INSERT** trigger on the `employees` table to log the new data into the `employee_log` table.
 
+## Program
+
+```
+
+
+
+```
+
 **Expected Output:**
 - A new entry is added to the `employee_log` table each time a new record is inserted into the `employees` table.
+
+<img width="832" height="160" alt="image" src="https://github.com/user-attachments/assets/bf6486d7-ce5f-49a2-9e7e-af263b901bf2" />
+
 
 ---
 
